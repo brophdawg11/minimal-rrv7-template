@@ -1,6 +1,6 @@
-import type { Route } from "./+types/home";
+import type { Route } from "./+types/_index";
 
-export function loader() {
+export function loader({}: Route.LoaderArgs) {
   return { name: "React Router" };
 }
 
